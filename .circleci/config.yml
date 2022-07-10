@@ -322,7 +322,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["c5:81:c8:a1:27:13:98:b6:e6:67:c7:df:3d:29:83:37"]
+          fingerprints: ["8b:19:5e:85:a7:2b:94:98:1a:cd:6f:36:da:8a:73:93"]
       - attach_workspace:
           at: ~/
       - run:
@@ -446,7 +446,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["c5:81:c8:a1:27:13:98:b6:e6:67:c7:df:3d:29:83:37"]
+          fingerprints: ["8b:19:5e:85:a7:2b:94:98:1a:cd:6f:36:da:8a:73:93"]
       - run: yum install -y tar gzip
       - attach_workspace:
           at: ~/
